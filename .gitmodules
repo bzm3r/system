@@ -4,3 +4,6 @@
 [submodule "sys-iso"]
 	path = sys-iso
 	url = https://github.com/bzm3r/sys-iso
+[submodule "sys-conf"]
+	path = sys-conf
+	url = https://github.com/bzm3r/sys-conf
