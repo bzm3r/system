@@ -1,6 +1,0 @@
-#/usr/bin/env bash
-
-# mkfs.fat -F 32 -n EFI /dev/nvme0n1p1
-# mkswap -L SWAP /dev/nvme0n1p2
-# mkfs.btrfs -f -L FS /dev/nvme0n1p3
-

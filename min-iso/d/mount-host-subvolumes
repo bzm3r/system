@@ -1,3 +1,0 @@
-#/usr/bin/env bash
-
-mount --mkdir -o subvol=@home,compress=zstd -t btrfs /dev/disk/by-label/3T /mnt/home

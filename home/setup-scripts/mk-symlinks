@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-cp --recursive --symbolic-link --update=all --remove-dest -v --reflink=never --target-directory=/home/bzm3r/ /home/bzm3r/nixos-conf/home/common/.
-
-cp --recursive --symbolic-link --update=all --remove-dest -v --reflink=never --target-directory=/home/bzm3r/ /home/bzm3r/nixos-conf/home/$(hostname)/.

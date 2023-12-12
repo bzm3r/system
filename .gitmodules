@@ -1,0 +1,6 @@
+[submodule "home-conf"]
+	path = home-conf
+	url = https://github.com/bzm3r/home-conf
+[submodule "sys-iso"]
+	path = sys-iso
+	url = https://github.com/bzm3r/sys-iso

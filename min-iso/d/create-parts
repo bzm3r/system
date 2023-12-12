@@ -1,8 +1,0 @@
-#/usr/bin/env bash
-
-# parted --script $1 \
-#   mkpart EFI fat32 1MiB 1001MiB \
-#   set 1 esp on \
-#   mkpart SWAP linux-swap 1001MiB 13001MiB \
-#   mkpart FS btrfs 13001MiB 100%
-

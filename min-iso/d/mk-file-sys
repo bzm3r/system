@@ -1,6 +1,0 @@
-#/usr/bin/env bash
-
-# mkfs.fat -F 32 -n EFI $1
-# mkswap -L SWAP $2
-# mkfs.btrfs -f -L FS /dev/sdc3
-

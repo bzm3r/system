@@ -1,3 +1,0 @@
-#/usr/bin/env bash
-
-mount --mkdir -o subvol=@home -t btrfs /dev/disk/by-label/FS /mnt/home
