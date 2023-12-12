@@ -1,4 +1,4 @@
 { ... }: {
   imports = [ ./root.nix ];
-  config = { machineLabel = "d"; };
+  config = { machineLabel = builtins.getEnv "HOSTNAME"; };
 }

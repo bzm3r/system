@@ -27,4 +27,6 @@ else
 fi
 export NIXOS_LABEL
 
+export HOSTNAME=$(hostname)
+
 exec nixos-rebuild "$@" -I nixpkgs=$NIXPKGS_PATH -I nixos-config=$ENTRY_POINT
